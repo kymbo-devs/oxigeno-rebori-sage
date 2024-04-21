@@ -23,7 +23,7 @@ export default async (app) => {
    *
    * @see {@link https://bud.js.org/reference/bud.setPublicPath}
    */
-  app.setPublicPath('/wp-content/themes/oxigeno-rebori-sage/public/');
+  app.setPublicPath('/app/themes/sage/public/');
 
   /**
    * Development server settings
@@ -34,7 +34,7 @@ export default async (app) => {
    */
   app
     .setUrl('http://localhost:3000')
-    .setProxyUrl('http://oxgeno-rbori.local/')
+    .setProxyUrl('http://oxgeno-rbori.local')
     .watch(['resources/views', 'app']);
 
   /**

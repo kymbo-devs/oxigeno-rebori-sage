@@ -3,7 +3,12 @@ const config = {
   content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   theme: {
     extend: {
-      colors: {}, // Extend Tailwind's default colors
+      colors: {},
+      fontFamily: {
+        gilroy: ['Gilroy', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+        mulish: ['Mulish', 'sans-serif'],
+      },
     },
   },
   plugins: [],

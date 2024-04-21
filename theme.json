@@ -1287,6 +1287,21 @@
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
           "name": "Ui-monospace",
           "slug": "mono"
+        },
+        {
+          "fontFamily": "Gilroy,sans-serif",
+          "name": "Gilroy",
+          "slug": "gilroy"
+        },
+        {
+          "fontFamily": "Raleway,sans-serif",
+          "name": "Raleway",
+          "slug": "raleway"
+        },
+        {
+          "fontFamily": "Mulish,sans-serif",
+          "name": "Mulish",
+          "slug": "mulish"
         }
       ],
       "fontSizes": [

@@ -1,6 +1,6 @@
-<header class="banner">
-  <a class="brand" href="{{ home_url('/') }}">
-    {!! $siteName !!}
+<header class="main-header">
+  <a class="logo" href="{{ home_url('/') }}">
+    {!! wp_get_attachment_image($logo, 'custom_logo', false, ['loading' => 'lazy']) !!}
   </a>
 
   @if (has_nav_menu('primary_navigation'))

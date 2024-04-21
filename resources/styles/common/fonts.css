@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-HeavyItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    src: url('@fonts/Gilroy-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-UltraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@fonts/Gilroy-UltraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('@fonts/Raleway-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('@fonts/Mulish-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
