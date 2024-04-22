@@ -6,36 +6,54 @@
     @import 'common/fonts';
 
     .desktop {
-        display: none;
-        @media (min-width: 993px) {
+        @media (min-width: 769px) {
             display: flex;
         }
     }
 
-    .tablet {
-        display: none;
-        @media (max-width: 992px) {
-            display: flex;
+    .desktop-block {
+        @media (min-width: 769px) {
+            display: block;
+        }
+    }
+    
+    .no-desktop {
+        @media (min-width: 769px) {
+            display: none;
         }
     }
 
     .mobile{
-        display: none;
         @media (max-width: 768px) {
             display: flex;
         }
     }
+    
+    .mobile-block {
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+    
+    .no-mobile{
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
 
     .fixed-w{
-        width: calc(100% - 5rem);
+        width: calc(100% - 5rem) !important;
     }
 
     .text-primary {
-        color: #00C0EA;
+        color: #00C0EA !important;
     }
     
     body {
         @apply  bg-[#222222] overflow-x-hidden font-mulish text-white;
+        @media (max-width: 992px) {
+            font-size: 14px;
+        }
     }
 
     #app {
@@ -48,23 +66,69 @@
     header {
         @apply flex items-center justify-between font-gilroy py-10;
     }
-    
-    header nav{
-        @apply w-[70%];
+
+    header button {
+        @apply py-6 pl-6;
     }
     
-    header nav ul{
-        @apply flex flex-row items-center justify-between;
+    header nav.nav-primary{
+        @apply w-[70%] items-center justify-between;
+        @media (max-width: 992px) {
+            @apply hidden;
+        }
     }
     
-    header nav ul li a {
+    header nav.nav-primary ul{
+        @apply flex flex-row items-center justify-between gap-2;
+    }
+    
+    header nav.nav-primary ul li a {
         @apply font-light text-white uppercase cursor-pointer opacity-50;
         
     }
-    header nav ul li a[aria-current="page"] {
+    header nav.nav-primary ul li a[aria-current="page"] {
         @apply font-semibold opacity-100;
     }
     
+    header .nav-second{
+        @apply fixed z-10 w-screen h-screen top-0 right-[-100%] bg-[rgba(0,0,0,0.5)] opacity-0 transition-all duration-200 ease-in-out;
+    }
+
+    header .nav-second:has(.nav-mobile.open){
+        @apply opacity-100 right-0;
+    }
+
+    header .nav-second .close-drawer{
+        @apply fixed top-0 right-0 p-6 cursor-pointer;
+    }
+
+    header nav.nav-mobile{
+        @apply fixed flex flex-col items-start justify-start gap-10 top-0 left-[-100%] z-20 h-screen w-[60%] bg-[#282828] p-10 transition-all duration-300 ease-in-out;
+        -webkit-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.37);
+        -moz-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.37);
+        box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.37);
+    }
+
+    header nav.nav-mobile.open{
+        @apply left-0;
+    }
+
+    header nav.nav-mobile img{
+        @apply w-2/3;
+    }
+
+    header nav.nav-mobile ul{
+        @apply flex flex-col items-start justify-start gap-6 h-full;
+    }
+
+    header nav.nav-mobile ul li a {
+        @apply font-light text-white uppercase cursor-pointer opacity-50;
+        
+    }
+    
+    header nav.nav-mobile ul li a[aria-current="page"] {
+        @apply font-semibold opacity-100;
+    }
     
     header .logo{
         @apply w-[30%];
@@ -80,18 +144,37 @@
 
     footer.footer-wrapper .footer-content-wrapper{
         @apply absolute top-0 left-0 h-full py-11 px-14 w-full;
+        @media (max-width: 768px) {
+            @apply px-6 py-4;
+        }
     }
 
     footer.footer-wrapper .footer-content {
         @apply w-3/5 flex flex-row items-start justify-between h-full;
+        @media (max-width: 768px) {
+            @apply w-full flex-col items-start justify-between;
+        }
     }
 
     footer.footer-wrapper .footer-lt{
         @apply flex flex-col items-start justify-between h-full;
+        @media (min-width: 768px) and (max-width: 992px) {
+            @apply w-full;
+        }
+    }
+
+    footer.footer-wrapper .footer-lt img{
+        @apply w-2/3 h-auto;
+        @media (max-width: 768px) {
+            @apply w-1/2 h-auto;
+        }
     }
 
     footer.footer-wrapper .footer-lt .footer-text {
-        @apply uppercase text-xl font-mulish
+        @apply uppercase text-xl font-mulish mr-6;
+        @media (max-width: 768px) {
+            @apply text-sm;
+        }
     }
 
     footer.footer-wrapper .footer-menu {
@@ -100,6 +183,9 @@
 
     footer.footer-wrapper  .footer-menu ul {
         @apply flex flex-col items-start justify-between gap-3;
+        @media (max-width: 768px) {
+            @apply gap-1;
+        }
     }
 
     footer.footer-wrapper  .footer-menu li a[aria-current="page"] {
